@@ -857,6 +857,27 @@ select {
   -o-object-fit: cover;
   object-fit: cover;
 }
+/* VK iframe обзор — всегда виден */
+.about__video iframe.about__video-element,
+.about__video .about__vk-wrap,
+.about__video iframe {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  border: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.about__vk-wrap {
+  position: absolute !important;
+  inset: 0;
+  padding-bottom: 0 !important;
+  height: 100% !important;
+  border-radius: inherit;
+  overflow: hidden;
+  background: #0b0b0d;
+}
 .about__img {
   height: 100%;
 }
