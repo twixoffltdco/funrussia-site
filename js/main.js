@@ -1169,8 +1169,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const videoPreview = document.getElementById("videoPreview");
   const videoElement = document.getElementById("videoElement");
 
-  // Обработчик нажатия на кнопку Play
-  playButton.addEventListener("click", event => {
+  // Обработчик Play (локальное видео); для VK iframe не нужен
+  if (playButton && videoPreview && videoElement) playButton.addEventListener("click", event => {
     event.preventDefault(); // Предотвращаем переход по ссылке
 
     videoPreview.style.display = "none"; // Скрываем превью
@@ -1179,11 +1179,11 @@ document.addEventListener("DOMContentLoaded", () => {
     videoElement.play(); // Запускаем воспроизведение видео
   });
 
-  // Обработчик завершения видео
-  videoElement.addEventListener("ended", () => {
-    videoElement.style.display = "none"; // Скрываем видео
-    videoPreview.style.display = "flex"; // Показываем превью
-    playButton.style.display = "flex"; // Показываем кнопку Play
+  // Обработчик завершения видео (только для локального <video>)
+  if (videoElement) videoElement.addEventListener("ended", () => {
+    videoElement.style.display = "none";
+    if (videoPreview) videoPreview.style.display = "flex";
+    if (playButton) playButton.style.display = "flex";
   });
 });
 
