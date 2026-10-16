@@ -1,0 +1,16 @@
+{
+  "name": "funrussia-dns",
+  "version": "1.0.0",
+  "description": "FUN RUSSIA DNS redirect for Black Russia client (iOS/Android)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:53": "node server.js --port 53"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dns2": "^2.1.0"
+  }
+}
