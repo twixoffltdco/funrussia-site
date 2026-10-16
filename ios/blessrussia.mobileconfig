@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<!-- DNS Settings -->
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>ServerAddresses</key>
+				<array>
+					<string>95.163.176.63</string>
+				</array>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>DNS settings for BLESS RUSSIA</string>
+			<key>PayloadDisplayName</key>
+			<string>BLESS RUSSIA DNS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.blessrussia.dns</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>D29D2B62-7E0C-4A34-8F3A-007AA8B1799B</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<!-- Certificate -->
+		<dict>
+			<key>PayloadCertificateFileName</key>
+			<string>BLESS RUSSIA Root CA</string>
+			<key>PayloadContent</key>
+			<data>
+LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUViakNDQTFhZ0F3SUJBZ0lVRy9yUkFXaEp1R0o4V0ZrSWQxVDBZaFlsTXY4d0RRWUpLb1pJaHZjTkFRRUwKQlFBd2RURUxNQWtHQTFVRUJoTUNWVk14RXpBUkJnTlZCQWdNQ2tOaGJHbG1iM0p1YVdFeEVqQVFCZ05WQkFjTQpDVU4xY0dWeWRHbHViekVUTUJFR0ExVUVDZ3dLUVhCd2JHVWdTVzVqTGpFUE1BMEdBMVVFQ3d3R2FWQm9iMjVsCk1SY3dGUVlEVlFRRERBNXBVR2h2Ym1VZ1VtOXZkQ0JEUVRBZUZ3MHlOVEV3TWpneE1qRXdORE5hRncwek5URXcKTWpZeE1qRXdORE5hTUhVeEN6QUpCZ05WQkFZVEFsVlRNUk13RVFZRFZRUUlEQXBEWVd4cFptOXlibWxoTVJJdwpFQVlEVlFRSERBbERkWEJsY25ScGJtOHhFekFSQmdOVkJBb01Da0Z3Y0d4bElFbHVZeTR4RHpBTkJnTlZCQXNNCkJtbFFhRzl1WlRFWE1CVUdBMVVFQXd3T2FWQm9iMjVsSUZKdmIzUWdRMEV3Z2dFaU1BMEdDU3FHU0liM0RRRUIKQVFVQUE0SUJEd0F3Z2dFS0FvSUJBUUMxeGRGRWExakJOdDhibCtkZmlRZVFQdDF4aDgrUlJCRkhvQzlNd1hKQQpGTVRxR3lYWE9lTzI1Ti9oZ2RhNEhPUG9ETURKaWlHcEd2MDNQYjFaaWNFYW9manZBYUtJQ2RjTDNSTzU3dGE1CkFxd2lrbmtVbEViVlNxOGM1YjdOcmZDMXNIMGJhS2Voc3N3b2syeUVhZ2VLWEkxUXFBb1ZnL1RXaHdxdExZREQKVTZCQWxkUG02UjVhMFl6NlJ4T2UxazlTdGJtVVN2WFY5eTJhd0Z6ODU2c1kzM3dLY29TWlVXV1BJQTkwK0d6UgphQmduVlM1VmFSY1RxWk1haW1JcEhBVGh2RE1aYUtqNFVtdEd1NzVQb2RkcHRJTnM4c0o1U3hESTg3T0RHRWlECklIWHJYS05hcXdhWTZScm5iNDYyOWZiSEpCWk1TdmJsdUJFM2ZmS2FXc2VIQWdNQkFBR2pnZlV3Z2ZJd0R3WUQKVlIwVEFRSC9CQVV3QXdFQi96QUxCZ05WSFE4RUJBTUNBUVl3SFFZRFZSME9CQllFRkl3N0ZWRWRWdVJZQlBSUgpuczQvRkhVOXMwYjdNSUd5QmdOVkhTTUVnYW93Z2FlQUZJdzdGVkVkVnVSWUJQUlJuczQvRkhVOXMwYjdvWG1rCmR6QjFNUXN3Q1FZRFZRUUdFd0pWVXpFVE1CRUdBMVVFQ0F3S1EyRnNhV1p2Y201cFlURVNNQkFHQTFVRUJ3d0oKUTNWd1pYSjBhVzV2TVJNd0VRWURWUVFLREFwQmNIQnNaU0JKYm1NdU1ROHdEUVlEVlFRTERBWnBVR2h2Ym1VeApGekFWQmdOVkJBTU1EbWxRYUc5dVpTQlNiMjkwSUVOQmdoUWIrdEVCYUVtNFlueFlXUWgzVlBSaUZpVXkvekFOCkJna3Foa2lHOXcwQkFRc0ZBQU9DQVFFQUplMTEwVkNDbTc5c0k4Wm16SGY4MzNVbHFQNm1zUm1xazA4ZmpMVFUKeUgwSEdiY01iVnVTdzNmQWFnQzJjanRCdnlhek80eDFOcjAyVll3UjZxRjU0eFpPYXlTWmJTU2h1U09ScHRERQpIMW1qTjU3VVhPRTZhZmEwV20wUXBnN08vbW44bEVCWnZyUXBYeTZmQmJYVklSSHNXVWdtM3JQMnp2L0xibWtPCnFxd3pNUHNrcUxpUnRRV1F2S0o5emM2TjBLbkNCbDlaeTgyc1JpcEs1UWczYU1HTU1ZTWlibEtsekJvOGF3SnoKSGhnVHZMeGgzVWpPVi9FRENIMElZcjVNMmdxdEp5TWxpcEdjZU0wT2hPK2IrOUZJRG5YY25tcU9rNG1zWUZiQwpGaUdUMzVnZHpuQU16WXRjNDhwQkxpSnpia1pWdnpEeFVMUDRCZ1BzTWNnL2h3PT0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=
+			</data>
+			<key>PayloadDescription</key>
+			<string>BLESS RUSSIA Root Certificate Authority. Enable in Settings → General → About → Certificate Trust Settings.</string>
+			<key>PayloadDisplayName</key>
+			<string>BLESS RUSSIA Root CA</string>
+			<key>PayloadIdentifier</key>
+			<string>com.blessrussia.rootca</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.root</string>
+			<key>PayloadUUID</key>
+			<string>C87A2B63-8E1D-5B45-9F4B-118BB8C2902C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>BLESS RUSSIA DNS and Certificate configuration</string>
+	<key>PayloadDisplayName</key>
+	<string>BLESS RUSSIA</string>
+	<key>PayloadIdentifier</key>
+			<string>com.blessrussia.profile</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>462F3198-25D3-4CBE-B5F1-3B571B1151FE</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
