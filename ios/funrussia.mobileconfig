@@ -10,7 +10,7 @@
 				<key>DNSProtocol</key>
 				<string>HTTPS</string>
 				<key>ServerURL</key>
-				<string>https://funrussia.layero.dev/dns-query</string>
+				<string>https://funrussia-doh.layero.dev/dns-query</string>
 			</dict>
 			<key>OnDemandRules</key>
 			<array>
