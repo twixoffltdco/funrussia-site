@@ -8,11 +8,9 @@
 			<key>DNSSettings</key>
 			<dict>
 				<key>DNSProtocol</key>
-				<string>Cleartext</string>
-				<key>ServerAddresses</key>
-				<array>
-					<string>185.207.214.14</string>
-				</array>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://funrussia.layero.dev/dns-query</string>
 			</dict>
 			<key>OnDemandRules</key>
 			<array>
@@ -22,21 +20,21 @@
 				</dict>
 			</array>
 			<key>PayloadDescription</key>
-			<string>DNS сервер FUN RUSSIA</string>
+			<string>DNS-over-HTTPS FUN RUSSIA</string>
 			<key>PayloadDisplayName</key>
 			<string>FUN RUSSIA DNS</string>
 			<key>PayloadIdentifier</key>
-			<string>online.funrussia.dns</string>
+			<string>online.funrussia.doh</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>B55D8155-AF45-4E39-84AD-AA9851A80A22</string>
+			<string>6368A2AD-81A1-497B-8738-D7C27CEA6E20</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>DNS FUN RUSSIA (185.207.214.14). Перед установкой нужен dnsmasq на VPS и открытый порт 53.</string>
+	<string>FUN RUSSIA DNS через HTTPS (funrussia.layero.dev). Без UDP 53. Нужен Black Russia из App Store.</string>
 	<key>PayloadDisplayName</key>
 	<string>FUN RUSSIA</string>
 	<key>PayloadIdentifier</key>
@@ -48,7 +46,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>D6AC129F-BE12-49BA-86B3-418B956D26E5</string>
+	<string>C84B13EE-EFCF-463F-9A7D-977BDC62861D</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
