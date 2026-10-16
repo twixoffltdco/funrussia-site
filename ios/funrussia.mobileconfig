@@ -20,7 +20,7 @@
 				</dict>
 			</array>
 			<key>PayloadDescription</key>
-			<string>DNS-over-HTTPS FUN RUSSIA</string>
+			<string>DNS FUN RUSSIA (не приложение)</string>
 			<key>PayloadDisplayName</key>
 			<string>FUN RUSSIA DNS</string>
 			<key>PayloadIdentifier</key>
@@ -28,13 +28,37 @@
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>6368A2AD-81A1-497B-8738-D7C27CEA6E20</string>
+			<string>8FBF87D5-6C1A-4FC3-B305-66575008FCF4</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>FullScreen</key>
+			<true/>
+			<key>URL</key>
+			<string>https://funrussia-site.tatnet.app/</string>
+			<key>IsRemovable</key>
+			<true/>
+			<key>Label</key>
+			<string>FUN RUSSIA</string>
+			<key>PayloadDescription</key>
+			<string>Ярлык сайта. Игра — приложение Black Russia</string>
+			<key>PayloadDisplayName</key>
+			<string>FUN RUSSIA</string>
+			<key>PayloadIdentifier</key>
+			<string>online.funrussia.webclip</string>
+			<key>PayloadType</key>
+			<string>com.apple.webClip.managed</string>
+			<key>PayloadUUID</key>
+			<string>74E42D7F-A408-448A-98C0-5B29830913E8</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Precomposed</key>
+			<true/>
+		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>FUN RUSSIA DNS через HTTPS (funrussia.layero.dev). Без UDP 53. Нужен Black Russia из App Store.</string>
+	<string>Внимание: это НЕ игра. Играй в приложении Black Russia. Профиль только включает DNS на FUN RUSSIA.</string>
 	<key>PayloadDisplayName</key>
 	<string>FUN RUSSIA</string>
 	<key>PayloadIdentifier</key>
@@ -46,7 +70,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>C84B13EE-EFCF-463F-9A7D-977BDC62861D</string>
+	<string>357C61E2-300F-4A48-91EB-1A660DBD36C4</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
