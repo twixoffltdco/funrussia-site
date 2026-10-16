@@ -83,39 +83,44 @@
 <section class="start" id="ios" style="padding-top:0;">
 <div class="start__container container" style="max-width:920px;">
 <h2 class="start__title">iPhone — <span>FUN RUSSIA</span></h2>
-<p class="start__descr" style="margin-bottom:1.25rem;">Black Russia из App Store + DNS-профиль. На VPS крутится dnsmasq → клиент идёт на <b>185.207.214.14:7785</b>.</p>
+<p class="start__descr" style="margin-bottom:1.25rem;">Black Russia из App Store + DNS на <b>185.207.214.14</b>. Если профиль пишет ошибку — поставь DNS <b>вручную</b> (способ 2).</p>
+
 <div style="display:grid;gap:1rem;margin-bottom:1.5rem;text-align:left;">
 <div style="background:rgba(22,163,74,0.12);border:1px solid rgba(22,163,74,0.4);border-radius:1rem;padding:1.25rem 1.5rem;">
-<p style="margin:0 0 0.35rem;color:#86efac;font-weight:700;">1. Black Russia</p>
-<p style="margin:0;color:rgba(255,255,255,0.8);">Установи из App Store.</p>
-</div>
-<div style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);border-radius:1rem;padding:1.25rem 1.5rem;">
-<p style="margin:0 0 0.35rem;color:#86efac;font-weight:700;">2. Профиль (ключ)</p>
-<p style="margin:0 0 0.5rem;color:rgba(255,255,255,0.8);">Ставит DNS <b>185.207.214.14</b> в настройках iPhone.</p>
-<p style="margin:0;"><a href="ios/funrussia.mobileconfig" style="color:#4ade80;font-weight:700;text-decoration:underline;">⬇ Скачать funrussia.mobileconfig</a></p>
-</div>
-<div style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);border-radius:1rem;padding:1.25rem 1.5rem;">
-<p style="margin:0 0 0.35rem;color:#86efac;font-weight:700;">3. Настройки iPhone</p>
-<ol style="margin:0.5rem 0 0;padding-left:1.2rem;color:rgba(255,255,255,0.85);line-height:1.6;">
-<li>Открой профиль в Safari.</li>
+<p style="margin:0 0 0.35rem;color:#86efac;font-weight:700;">Способ 1 — профиль</p>
+<ol style="margin:0.5rem 0 0;padding-left:1.2rem;color:rgba(255,255,255,0.85);line-height:1.55;">
+<li>Скачай профиль <b>только в Safari</b> (не в Telegram).</li>
 <li><b>Настройки → Основные → VPN и управление устройством</b></li>
-<li><b>FUN RUSSIA → Установить</b></li>
+<li>FUN RUSSIA → <b>Установить</b></li>
+<li>Если снова ошибка DNS — используй способ 2.</li>
+</ol>
+<p style="margin:0.75rem 0 0;"><a href="ios/funrussia.mobileconfig" style="color:#4ade80;font-weight:700;text-decoration:underline;">⬇ Скачать funrussia.mobileconfig</a></p>
+</div>
+<div style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);border-radius:1rem;padding:1.25rem 1.5rem;">
+<p style="margin:0 0 0.35rem;color:#86efac;font-weight:700;">Способ 2 — DNS вручную (работает всегда)</p>
+<ol style="margin:0.5rem 0 0;padding-left:1.2rem;color:rgba(255,255,255,0.85);line-height:1.55;">
+<li><b>Настройки → Wi‑Fi</b> → нажми <b>(i)</b> у своей сети</li>
+<li><b>Настройка DNS</b> → <b>Вручную</b></li>
+<li>Удали старые DNS</li>
+<li>Добавь: <b style="color:#fff;">185.207.214.14</b></li>
+<li><b>Сохранить</b> → открой Black Russia</li>
 </ol>
 </div>
 <div style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);border-radius:1rem;padding:1.25rem 1.5rem;">
-<p style="margin:0 0 0.35rem;color:#86efac;font-weight:700;">4. Играть</p>
-<p style="margin:0;color:rgba(255,255,255,0.8);">Black Russia → сервер <b style="color:#fff;">185.207.214.14:7785</b> (Fun Russia).</p>
+<p style="margin:0 0 0.35rem;color:#86efac;font-weight:700;">Перед этим</p>
+<p style="margin:0;color:rgba(255,255,255,0.8);">1) Black Russia из App Store<br>2) На VPS Layero запущен <b>dnsmasq</b>, порт <b>53</b> открыт</p>
 </div>
 </div>
+
 <div style="background:#0b0b0d;border-radius:1rem;padding:1.25rem 1.5rem;margin-bottom:1rem;border:1px solid rgba(22,163,74,0.35);text-align:left;">
-<p style="margin:0 0 0.35rem;color:#86efac;font-size:0.85rem;">DNS / IP</p>
-<p style="margin:0;font-size:1.25rem;font-weight:800;color:#fff;user-select:all;">185.207.214.14</p>
-<p style="margin:0.4rem 0 0;color:rgba(255,255,255,0.5);font-size:0.9rem;">Игра :7785 · DNS :53</p>
+<p style="margin:0 0 0.35rem;color:#86efac;font-size:0.85rem;">DNS</p>
+<p style="margin:0;font-size:1.35rem;font-weight:800;color:#fff;user-select:all;">185.207.214.14</p>
+<p style="margin:0.4rem 0 0;color:rgba(255,255,255,0.5);font-size:0.9rem;">Игра: 185.207.214.14:7785</p>
 </div>
-<p class="start__descr" style="font-size:0.9rem;color:rgba(255,255,255,0.45);margin-bottom:1rem;">Админ: на Layero запусти папку <code>dns/</code> — <code>bash install-dnsmasq.sh</code>, открой порт 53.</p>
+
 <div class="start__place" style="display:flex;flex-wrap:wrap;gap:1rem;justify-content:center;">
 <a href="https://apps.apple.com/search?term=Black%20Russia" target="_blank" rel="noopener"><button class="btn btn-reset btn--downloadlg">App Store</button></a>
-<a href="ios/funrussia.mobileconfig"><button class="btn btn-reset btn--downloadlg" style="background:#15803d;">Профиль FUN RUSSIA</button></a>
+<a href="ios/funrussia.mobileconfig"><button class="btn btn-reset btn--downloadlg" style="background:#15803d;">Профиль</button></a>
 <a href="https://t.me/funrussia_game" target="_blank" rel="noopener"><button class="btn btn-reset btn--downloadlg">Telegram</button></a>
 </div>
 </div>

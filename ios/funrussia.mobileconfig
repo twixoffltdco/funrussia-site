@@ -14,52 +14,33 @@
 					<string>185.207.214.14</string>
 				</array>
 			</dict>
+			<key>OnDemandRules</key>
+			<array>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+				</dict>
+			</array>
 			<key>PayloadDescription</key>
-			<string>DNS FUN RUSSIA 185.207.214.14</string>
+			<string>DNS сервер FUN RUSSIA</string>
 			<key>PayloadDisplayName</key>
 			<string>FUN RUSSIA DNS</string>
 			<key>PayloadIdentifier</key>
-			<string>online.funrussia.ios.dns</string>
+			<string>online.funrussia.dns</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>47940A87-440B-4992-800B-837A9932CAEB</string>
+			<string>B55D8155-AF45-4E39-84AD-AA9851A80A22</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-			<key>ProhibitDisablement</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>FullScreen</key>
-			<false/>
-			<key>URL</key>
-			<string>https://funrussia-site.tatnet.app/</string>
-			<key>IsRemovable</key>
-			<true/>
-			<key>Label</key>
-			<string>FUN RUSSIA</string>
-			<key>PayloadDescription</key>
-			<string>FUN RUSSIA site</string>
-			<key>PayloadDisplayName</key>
-			<string>FUN RUSSIA</string>
-			<key>PayloadIdentifier</key>
-			<string>online.funrussia.ios.webclip</string>
-			<key>PayloadType</key>
-			<string>com.apple.webClip.managed</string>
-			<key>PayloadUUID</key>
-			<string>34D762F7-7623-409E-B5ED-2782D5B57948</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>Precomposed</key>
-			<true/>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>FUN RUSSIA iOS. DNS 185.207.214.14. Game 185.207.214.14:7785. Need Black Russia App Store + dnsmasq on VPS.</string>
+	<string>DNS FUN RUSSIA (185.207.214.14). Перед установкой нужен dnsmasq на VPS и открытый порт 53.</string>
 	<key>PayloadDisplayName</key>
 	<string>FUN RUSSIA</string>
 	<key>PayloadIdentifier</key>
-	<string>online.funrussia.ios</string>
+	<string>online.funrussia.profile</string>
 	<key>PayloadOrganization</key>
 	<string>FUN RUSSIA</string>
 	<key>PayloadRemovalDisallowed</key>
@@ -67,7 +48,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>8A37DCD3-CC6F-4DC1-B1E1-3223F8D7030D</string>
+	<string>D6AC129F-BE12-49BA-86B3-418B956D26E5</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
